@@ -1,8 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html,
 body {
     width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
 body {
@@ -24,30 +27,26 @@ body {
     overflow: auto;
 }
 
-#form input {
+input {
     box-sizing: border-box;
     margin-bottom: 12px;
     border: 2px solid #f0d4b0;
     background-color: #faebd7;
 }
 
-#form input:focus {
+input:focus {
     border-color: #c9ad89;
 }
 
-#form input,
+input,
 button {
     padding: 4px 16px;
     border-radius: 4px;
     outline: none;
 }
 
-#form label {
+label {
     margin-bottom: 4px;
-}
-
-#form > * {
-    margin-top: 0;
 }
 
 #form > :not(:last-child) {
@@ -68,15 +67,6 @@ button {
 
 button:hover {
     background-color: #7bcf90;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-    margin: 0;
 }
 
 #to-dos > div {
